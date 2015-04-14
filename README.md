@@ -3,7 +3,10 @@ A directive to easily integrate chartist graphs into your AngularJS application
 
 #HowTo
 Insert the directive in your HTML file:
-```<div ng-chartist id='graph_id' class="ct-chart" data='data' options='{{options}}' type='{{chartType}}' tooltips='true'></div>```
+
+```html
+<div ng-chartist id='graph_id' class="ct-chart" data='data' options='{{options}}' type='{{chartType}}' tooltips='true'></div>
+```
 
 ###Parameter
 - id: set manually
