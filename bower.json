@@ -1,0 +1,33 @@
+{
+  "name": "chartistAngularDirective.js",
+  "version": "1.0",
+  "authors": [
+    "gruberbastian@me.com"
+  ],
+  "description": "Angular directive for Chartist.js",
+  "main": "chartistAngularDirective.js",
+  "keywords": [
+    "chartist.js",
+    "angular",
+    "directive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "example/bower_components",
+    "test",
+    "tests",
+    "src"
+  ],
+  "dependencies": {
+    "angular": "^1.2",
+    "chartist": "^0.7.3"
+  },
+  "moduleType": [
+    "amd"
+  ],
+  "homepage": "https://github.com/gruberb/chartistAngularDirective"
+}
