@@ -1,6 +1,11 @@
 # chartistAngularDirective
 A directive to easily integrate chartist graphs into your AngularJS application
 
+#Install
+```
+bower install chartist-directive --save
+```
+
 #HowTo
 Insert the directive in your HTML file:
 
