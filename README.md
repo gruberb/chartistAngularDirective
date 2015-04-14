@@ -1,5 +1,6 @@
 # chartistAngularDirective
-A directive to easily integrate chartist graphs into your AngularJS application
+A directive to easily integrate chartist graphs into your AngularJS application.
+Chartist is a open source graph framework and has to be added to your app as well. <a href="http://gionkunz.github.io/chartist-js/">The API and examples can be found here.</a>
 
 #Install
 ```
