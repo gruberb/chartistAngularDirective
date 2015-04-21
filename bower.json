@@ -1,6 +1,6 @@
 {
   "name": "chartistAngularDirective.js",
-  "version": "0.8.2",
+  "version": "1.0",
   "authors": [
     "gruberbastian@me.com"
   ],
@@ -24,10 +24,9 @@
   ],
   "dependencies": {
     "angular": "^1.2",
-    "chartist": "^0.7.3"
+    "chartist": "^0.7.3",
+    "jasmine": "~2.2.1",
+    "grunt": "~0.4.5"
   },
-  "moduleType": [
-    "amd"
-  ],
   "homepage": "https://github.com/gruberb/chartistAngularDirective"
 }
