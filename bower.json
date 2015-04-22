@@ -30,5 +30,5 @@
   "dependencies": {
     "chartist": "^0.7.3"
   },
-  "homepage": "https://github.com/gruberb/chartistAngularDirective",
+  "homepage": "https://github.com/gruberb/chartistAngularDirective"
 }
