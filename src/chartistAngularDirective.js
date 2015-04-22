@@ -38,9 +38,6 @@ function ngChartist($compile) {
       graph.update(scope.options, true);
     }, true);
 
-    // if parameter in html is set, bind tool tips
-    if(scope.tooltips) bindToolTip();
-
     // function to bindToolTips to each value
     var bindToolTip = function (scope) {
       var $chart = $('#' + scope.id);
@@ -67,6 +64,9 @@ function ngChartist($compile) {
       });
 
     };
+
+    // if parameter in html is set, bind tool tips
+    if(scope.tooltips) bindToolTip();
   }
 
 }

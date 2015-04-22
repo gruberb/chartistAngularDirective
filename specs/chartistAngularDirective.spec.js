@@ -1,18 +1,26 @@
 describe('chartistAngularDirective', function () {
-  var element;
+  var $scope;
+  var $compile;
 
-  beforeEach(function () {
-    element = angular.element('<ngChartist/>');
+  beforeEach(module('chartistAngularDirective'));
+  beforeEach(inject(function(_$rootScope_, _$compile_) {
+    $scope = _$rootScope_.$new();
+    $compile = _$compile_;
+  }));
 
-    inject(function ($rootScope, $compile) {
-      var scope = $rootScope.$new();
-      $compile(element)(scope);
+  describe('graph', function() {
+
+    var compileGraph = function(markup, scope) {
+      var el = $compile(markup)(scope);
       scope.$digest();
+      return el;
+    };
+
+    it('should create a proper graph object', function() {
+      expect(true).toBeTruthy();
     });
 
   });
 
-  it('says hello', function () {
-    expect(true).toBe(true);
-  });
+
 });
