@@ -1,6 +1,6 @@
 {
   "name": "chartistAngularDirective.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "authors": [
     "gruberbastian@me.com"
   ],
@@ -19,15 +19,14 @@
     "app/bower_components",
     "example/bower_components",
     "test",
-    "tests",
-    "src"
+    "tests"
   ],
   "devDependencies": {
-    "angular": "~1.3.15",
     "jasmine": "~2.2.1",
     "angular-mocks": "~1.3.15"
   },
   "dependencies": {
+    "angular": "~1.3.15",
     "chartist": "^0.7.3"
   },
   "homepage": "https://github.com/gruberb/chartistAngularDirective"
