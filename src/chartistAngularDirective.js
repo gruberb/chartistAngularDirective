@@ -66,7 +66,7 @@ function ngChartist($compile) {
     };
 
     // if parameter in html is set, bind tool tips
-    if(scope.tooltips) bindToolTip();
+    if(scope.tooltips) bindToolTip(scope);
   }
 
 }
