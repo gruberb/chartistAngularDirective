@@ -1,4 +1,5 @@
-# chartistAngularDirective [![Build Status](https://travis-ci.org/gruberb/chartistAngularDirective.svg?branch=master)](https://travis-ci.org/gruberb/chartistAngularDirective) [![npm installs](https://img.shields.io/npm/dm/chartist-angular-directive.svg?style=flat)](https://github.com/gruberb/chartistAngularDirective)
+# chartistAngularDirective [![Build Status](https://travis-ci.org/gruberb/chartistAngularDirective.svg?branch=master)](https://travis-ci.org/gruberb/chartistAngularDirective) [![npm installs](https://img.shields.io/npm/dm/chartist-angular-directive.svg?style=flat)](https://github.com/gruberb/chartistAngularDirective) 
+[![Code Climate](https://codeclimate.com/github/gruberb/chartistAngularDirective/badges/gpa.svg)](https://codeclimate.com/github/gruberb/chartistAngularDirective)
 
 
 A directive to easily integrate chartist graphs into your AngularJS application.
